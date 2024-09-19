@@ -16,6 +16,7 @@ __status__ = "Production"
 import numbers
 import inspect
 import collections
+collections.Iterable = collections.abc.Iterable
 
 import numpy as np
 
