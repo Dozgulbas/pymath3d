@@ -1,0 +1,7 @@
+* Make sure setup.py has the right version info.
+
+* Ensure correct configuration of ~/.pypirc . It needs 'password'.
+
+Then run
+ $ python3 setup.py sdist
+ $ twine upload dists/<package-version>.tar.gz  

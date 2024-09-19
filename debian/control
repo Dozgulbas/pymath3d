@@ -1,0 +1,19 @@
+Source: math3d
+Section: python
+Priority: extra
+Maintainer: Morten Lind <morten@lind.dyndns.dk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://git.automatics.dyndns.dk/?p=pymath3d.git
+X-Python-Version: >= 2.6
+X-Python3-Version: >= 3.1
+
+Package: python-math3d
+Architecture: all
+Depends: ${python:Depends}, python-numpy, ${misc:Depends}
+Description: 3D Special Euclidean mathematics package for Python.
+
+Package: python3-math3d
+Architecture: all
+Depends: ${python3:Depends}, python3-numpy, ${misc:Depends}
+Description: 3D Special Euclidean mathematics package for Python.
