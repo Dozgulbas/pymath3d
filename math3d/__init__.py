@@ -10,9 +10,6 @@ __maintainer__ = "Morten Lind"
 __email__ = "morten@lind.fairuse.org"
 __status__ = "Production"
 
-__version__ = 3.4.0+custom
-
-
 from .utils import set_precision
 from .quaternion import Quaternion, Versor, UnitQuaternion
 from .orientation import Orientation
